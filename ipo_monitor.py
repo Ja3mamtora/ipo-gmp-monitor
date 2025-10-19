@@ -45,7 +45,7 @@ def send_email(subject, body, to_email):
 
 def check_ipo_gmp():
     """Scrape IPO data and check conditions"""
-    url = "https://www.investorgain.com/report/live-ipo-gmp/331/close/"
+    url = "https://www.investorgain.com/report/live-ipo-gmp/331/closing-today/"
     
     print("="*80)
     print(f"🔍 Starting IPO GMP check at {datetime.now()}")

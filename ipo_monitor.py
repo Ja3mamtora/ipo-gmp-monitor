@@ -5,7 +5,7 @@ from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 from datetime import datetime
 import time
-
+import os 
 # CREDENTIALS - Uses environment variables in production, hardcoded for local testing
 SENDER_EMAIL = os.environ.get('SENDER_EMAIL', 'your_email@gmail.com')
 EMAIL_PASSWORD = os.environ.get('EMAIL_PASSWORD', 'your_app_password_here')
